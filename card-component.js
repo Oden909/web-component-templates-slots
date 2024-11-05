@@ -23,13 +23,13 @@ class CardComponent extends HTMLElement {
                     text-align: center;
                 }
                 .card-content {
-                    font-size: 1em;
+                    font-size: 16px;
                     color: #555;
                     text-align: center;
                 }
                 .card-content img {
-                    width: 100%; /* Изменил для адаптивности */
-                    height: auto;
+                    width: 250px;
+                    height: 200px;
                 }
             </style>
             <div class="card">
