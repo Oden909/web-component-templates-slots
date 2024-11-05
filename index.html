@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="card-component.js" defer></script>
+    <link rel="stylesheet" href="card-component.css">
+</head>
+<body>
+    <div id="card-container">
+        <card-component>
+            <div slot="header">
+                <h2>Card 1</h2>
+            </div>
+            <div slot="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <img src="images/girl.jpg" alt="card-photo" style="width: 250px; height: 200px;">
+            </div>
+        </card-component>    
+        <card-component>
+            <div slot="header">
+                <h2>Card 2</h2>
+            </div>
+            <div slot="content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <img src="images/man.jpg" alt="card-photo" style="width: 250px; height: 200px;">
+            </div>
+        </card-component> 
+    </div>
+</body>
+</html>
